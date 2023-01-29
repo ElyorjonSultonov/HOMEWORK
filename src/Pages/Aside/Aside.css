@@ -1,0 +1,63 @@
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
+  height: 0 !important;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+  margin: 0 !important;
+}
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+  border: 0.5px solid rgba(3, 3, 3, 0.105) !important;
+  transition: all 0.3s linear !important;
+}
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root:hover {
+  filter: blur(0.6px) !important;
+  background: #87cefa !important;
+}
+.css-ahj2mt-MuiTypography-root {
+  color: #000 !important;
+  letter-spacing: 1px !important;
+  font-weight: 700 !important;
+}
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root:hover
+  .css-ahj2mt-MuiTypography-root {
+  color: #fff !important;
+  letter-spacing: 5px !important;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  background: #e6e6fa !important;
+}
+
+aside {
+  position: fixed;
+  top: 76px;
+  width: 350px;
+  height: 665px !important;
+  overflow-y: scroll;
+  /* display: -webkit-box;
+  -webkit-box-orient: vertical; */
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+  border-right: 2px solid rgba(3, 3, 3, 0.105);
+}
+
+aside::-webkit-scrollbar {
+  display: none !important;
+}
+aside h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+aside h3 span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #757782;
+}
+aside p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #757782;
+}

@@ -1,0 +1,26 @@
+
+.body {
+  padding: 10px 0;
+  margin-left: 350px;
+  z-index: 000;
+  background: #e6e6fa !important;
+}
+.body h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #22a4e2 !important;
+}
+.body p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 10px 0 20px;
+  color: #000000;
+}
+.body img {
+  max-width: 100%;
+  width: 100%;
+}

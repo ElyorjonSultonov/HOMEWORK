@@ -1,0 +1,54 @@
+.menu .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+  color: #22a4e2 !important;
+}
+.menu .css-1869usk-MuiFormControl-root {
+  margin: 0 8px !important;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  background: #f0ffff !important;
+  color: #22a4e2 !important;
+  border-bottom: 2px solid #22a4e2 !important;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+  background: #87cefa !important;
+  color: #fff !important;
+  /* border-bottom: 2px solid #22a4e2 !important; */
+}
+nav {
+  background: #f0ffff;
+  width: 100%;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  z-index: 1111;
+  box-shadow: 1px 1px 2px grey;
+}
+nav .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .row .logo {
+  color: #fff;
+  cursor: pointer;
+}
+nav .row .menu {
+  display: flex;
+  align-items: center;
+}
+nav .row .menu .dropD {
+  margin: 0 10px;
+}
+
+nav .row .btn button {
+  background: #22a4e2;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
