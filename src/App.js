@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import { StateContext } from "./context/Context";
@@ -27,7 +28,9 @@ function App() {
         }}
       >
         <Navbar />
-        <Home />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
       </StateContext.Provider>
     </div>
   );

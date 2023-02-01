@@ -12,6 +12,7 @@ function Home() {
       </div>
       <div>
         <Body />
+        
       </div>
     </div>
   );

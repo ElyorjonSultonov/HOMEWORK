@@ -1,0 +1,135 @@
+.register {
+  /* margin: 50px; */
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #e3e3e3;
+  border-radius: 16px;
+  padding: 48px;
+  width: 478px;
+  background: #fff;
+}
+.register form {
+  display: flex;
+  flex-direction: column;
+}
+.register form .emailFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.register form .emailFlex .system {
+  display: flex;
+  align-items: center;
+}
+.register form .emailFlex .system span {
+  font-size: 14px;
+}
+.register form .emailFlex .system h4 {
+  font-size: 14px;
+  color: #04aa6d;
+  cursor: pointer;
+}
+
+.register form input {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  padding: 14px;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.register form input::placeholder {
+  font-weight: 400;
+}
+.register form input:focus {
+  outline: 4px solid #04aa6d8c;
+  border: 1px solid green;
+}
+.register form .hideshow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.register form .hideshow span {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.register form .hideshow span .showIcon {
+  margin-right: 5px;
+}
+
+.register form h1 {
+  color: #04aa6d !important;
+  font-size: 29px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.register form .mb-30 {
+  margin-bottom: 30px;
+}
+
+.register form h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #282a35b7;
+}
+.register form .formBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.register form .formBtn div {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+.register form .formBtn div ul:last-child {
+  margin-left: 35px;
+}
+
+.register form .formBtn div ul li {
+  position: relative;
+  font-size: 14px;
+  color: #282a35;
+}
+
+.register form .formBtn div ul li::after {
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: green;
+  border-radius: 50%;
+}
+.register form .formBtn button {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #04aa6d;
+  color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 14px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.register form .formBtn button:focus {
+  box-shadow: 0 0 4px 4px #04aa6d;
+  background: transparent;
+  color: #282a35b7;
+}

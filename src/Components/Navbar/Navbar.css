@@ -15,7 +15,7 @@
   /* border-bottom: 2px solid #22a4e2 !important; */
 }
 nav {
-  background: #f0ffff;
+  background: #fff;
   width: 100%;
   padding: 10px 0;
   position: fixed;
@@ -41,14 +41,21 @@ nav .row .menu .dropD {
 }
 
 nav .row .btn button {
-  background: #22a4e2;
+  /* background: #22a4e2; */
   border-radius: 5px;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 16px;
   line-height: 17px;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border: none;
   cursor: pointer;
+  border: 1px solid blue;
+  background: transparent;
+  outline: 3px solid #22a4e2;
+  position: relative;
+}
+nav .row .btn button:focus {
+  background: #22a4e2;
+  color: #fff;
 }

@@ -8,113 +8,114 @@ import VIDEO from "./assets/video/task-video.mp4";
 export const Tasks = [
   {
     title: "HTML",
-    category: "CSS Grid Container",
+    category: "Task-CSS Grid Container",
     text: "Bu safargi mashqimiz Verstka yani HTML css dan bo'ladi huddi rasmda ko'rib turganizdek shakil chiqishi kerak bunga yordam cssning GRID xususiyatidan foydalansangiz bo'ladi...",
-    image: TASK1,
+    image: [TASK1],
     id: 1,
   },
   {
     title: "HTML",
-    category: "",
+    category: "Task-HTML Forms",
     text: "Lorem 2 ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
-    image: TASK2,
+    image: [TASK2],
     id: 2,
   },
   {
     title: "HTML",
-    category: "",
+    category: "Task-HTML jadvallari",
     text: "Lorem 3 ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
-    image: TASK3,
+    image: [TASK3],
     id: 3,
   },
   {
     title: "HTML",
-    category: "",
+    category: "Task-HTML ro'yxatlari",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
-    image: TASK4,
+    image: [TASK4],
     id: 4,
   },
   {
     title: "HTML",
-    category: "",
+    category: "Task-HTML tartibsiz ro'yxatlar",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
-    image: TASK5,
+    image: [TASK5],
     id: 5,
   },
   {
     title: "HTML",
-    category: "",
+    category: "Task-HTML tartibli ro'yxatlar",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
-    image: TASK3,
+    image: [TASK3],
     id: 6,
   },
   {
     title: "HTML",
-    category: "",
+    category: "Task-HTML API'lari",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
-    image: TASK2,
+    image: [TASK2],
     id: 7,
   },
   {
     title: "HTML",
-    category: "",
+    category: "Task-HTML media",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
-    image: TASK4,
+    image: [TASK4],
     id: 8,
   },
   {
     title: "HTML",
-    category: "",
+    category: "Task-HTML grafika",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
-    image: TASK5,
+    image: [TASK5],
     id: 9,
   },
   {
     title: "HTML",
-    category: "",
+    category: "Task-HTML misollar",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
-    image: TASK1,
+    image: [TASK1],
     id: 10,
   },
   {
     title: "HTML",
-    category: "",
+    category: "Task-HTML havolalari",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
-    image: TASK3,
+    image: [TASK3],
     id: 11,
   },
   {
     title: "HTML",
-    category: "",
+    category: "Task-HTMLga kirish imkoniyati",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
-    image: TASK4,
+    image: [TASK3, TASK4, TASK1, TASK2],
     id: 12,
   },
   {
     title: "HTML",
-    category: "",
+    category: "Task-HTML formasi atributlari",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
-    image: TASK5,
+    image: [TASK5],
     id: 13,
   },
   {
     title: "HTML",
-    category: "",
+    category: "Task-HTML atributlari",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
-    image: TASK2,
+    image: [TASK2],
     id: 14,
   },
   {
     title: "HTML",
-    category: "",
+    category: "Task-HTML paragraflari",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
-    image: TASK1,
+    image: [TASK1],
     id: 15,
   },
   // css -----------------
   {
     title: "CSS",
     category: "CSS",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 1,
@@ -122,6 +123,7 @@ export const Tasks = [
   {
     title: "CSS",
     category: "CSS",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 2,
@@ -129,6 +131,7 @@ export const Tasks = [
   {
     title: "CSS",
     category: "CSS",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 3,
@@ -136,6 +139,7 @@ export const Tasks = [
   {
     title: "CSS",
     category: "CSS",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 4,
@@ -143,6 +147,7 @@ export const Tasks = [
   {
     title: "CSS",
     category: "CSS",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 5,
@@ -150,6 +155,7 @@ export const Tasks = [
   {
     title: "CSS",
     category: "CSS",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 6,
@@ -157,6 +163,7 @@ export const Tasks = [
   {
     title: "CSS",
     category: "CSS",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 7,
@@ -164,6 +171,7 @@ export const Tasks = [
   {
     title: "CSS",
     category: "CSS",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 8,
@@ -171,6 +179,7 @@ export const Tasks = [
   {
     title: "CSS",
     category: "CSS",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 9,
@@ -178,6 +187,7 @@ export const Tasks = [
   {
     title: "CSS",
     category: "CSS",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 10,
@@ -185,6 +195,7 @@ export const Tasks = [
   {
     title: "CSS",
     category: "CSS",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 11,
@@ -192,6 +203,7 @@ export const Tasks = [
   {
     title: "CSS",
     category: "CSS",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 12,
@@ -199,6 +211,7 @@ export const Tasks = [
   {
     title: "CSS",
     category: "CSS",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 13,
@@ -206,6 +219,7 @@ export const Tasks = [
   {
     title: "CSS",
     category: "CSS",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 14,
@@ -213,6 +227,7 @@ export const Tasks = [
   {
     title: "CSS",
     category: "CSS",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 15,
@@ -221,6 +236,7 @@ export const Tasks = [
   {
     title: "BOOTSTRAP",
     category: "BOOTSTRAP",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 1,
@@ -228,6 +244,7 @@ export const Tasks = [
   {
     title: "BOOTSTRAP",
     category: "BOOTSTRAP",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 2,
@@ -235,6 +252,7 @@ export const Tasks = [
   {
     title: "BOOTSTRAP",
     category: "BOOTSTRAP",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 3,
@@ -242,6 +260,7 @@ export const Tasks = [
   {
     title: "BOOTSTRAP",
     category: "BOOTSTRAP",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 4,
@@ -249,6 +268,7 @@ export const Tasks = [
   {
     title: "BOOTSTRAP",
     category: "BOOTSTRAP",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 5,
@@ -256,6 +276,7 @@ export const Tasks = [
   {
     title: "BOOTSTRAP",
     category: "BOOTSTRAP",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 6,
@@ -263,6 +284,7 @@ export const Tasks = [
   {
     title: "BOOTSTRAP",
     category: "BOOTSTRAP",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 7,
@@ -270,6 +292,7 @@ export const Tasks = [
   {
     title: "BOOTSTRAP",
     category: "BOOTSTRAP",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 8,
@@ -277,6 +300,7 @@ export const Tasks = [
   {
     title: "BOOTSTRAP",
     category: "BOOTSTRAP",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 9,
@@ -284,6 +308,7 @@ export const Tasks = [
   {
     title: "BOOTSTRAP",
     category: "BOOTSTRAP",
+    image: [TASK1],
     video: "",
     text: "Loreid: 10,m dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 10,
@@ -291,6 +316,7 @@ export const Tasks = [
   {
     title: "BOOTSTRAP",
     category: "BOOTSTRAP",
+    image: [TASK1],
     video: "",
     text: "Loreid: 11,m dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 11,
@@ -298,6 +324,7 @@ export const Tasks = [
   {
     title: "BOOTSTRAP",
     category: "BOOTSTRAP",
+    image: [TASK1],
     video: "",
     text: "Loreid: 12,m dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 12,
@@ -305,6 +332,7 @@ export const Tasks = [
   {
     title: "BOOTSTRAP",
     category: "BOOTSTRAP",
+    image: [TASK1],
     video: "",
     text: "Loreid: 10,m dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 13,
@@ -312,6 +340,7 @@ export const Tasks = [
   {
     title: "BOOTSTRAP",
     category: "BOOTSTRAP",
+    image: [TASK1],
     video: "",
     text: "Loreid: 11,m dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 14,
@@ -319,6 +348,7 @@ export const Tasks = [
   {
     title: "BOOTSTRAP",
     category: "BOOTSTRAP",
+    image: [TASK1],
     video: "",
     text: "Loreid: 12,m dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 15,
@@ -327,6 +357,7 @@ export const Tasks = [
   {
     title: "JAVASCRIPT",
     category: "JAVASCRIPT",
+    image: [TASK1],
     video: VIDEO,
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 1,
@@ -334,6 +365,7 @@ export const Tasks = [
   {
     title: "JAVASCRIPT",
     category: "JAVASCRIPT",
+    image: [TASK1],
     video: VIDEO,
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 2,
@@ -341,6 +373,7 @@ export const Tasks = [
   {
     title: "JAVASCRIPT",
     category: "JAVASCRIPT",
+    image: [TASK1],
     video: VIDEO,
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 3,
@@ -348,6 +381,7 @@ export const Tasks = [
   {
     title: "JAVASCRIPT",
     category: "JAVASCRIPT",
+    image: [TASK1],
     video: VIDEO,
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 4,
@@ -355,6 +389,7 @@ export const Tasks = [
   {
     title: "JAVASCRIPT",
     category: "JAVASCRIPT",
+    image: [TASK1],
     video: VIDEO,
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 5,
@@ -362,6 +397,7 @@ export const Tasks = [
   {
     title: "JAVASCRIPT",
     category: "JAVASCRIPT",
+    image: [TASK1],
     video: VIDEO,
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 6,
@@ -369,6 +405,7 @@ export const Tasks = [
   {
     title: "JAVASCRIPT",
     category: "JAVASCRIPT",
+    image: [TASK1],
     video: VIDEO,
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 7,
@@ -376,6 +413,7 @@ export const Tasks = [
   {
     title: "JAVASCRIPT",
     category: "JAVASCRIPT",
+    image: [TASK1],
     video: VIDEO,
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 8,
@@ -383,6 +421,7 @@ export const Tasks = [
   {
     title: "JAVASCRIPT",
     category: "JAVASCRIPT",
+    image: [TASK1],
     video: VIDEO,
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 9,
@@ -390,6 +429,7 @@ export const Tasks = [
   {
     title: "JAVASCRIPT",
     category: "JAVASCRIPT",
+    image: [TASK1],
     video: VIDEO,
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 10,
@@ -397,6 +437,7 @@ export const Tasks = [
   {
     title: "JAVASCRIPT",
     category: "JAVASCRIPT",
+    image: [TASK1],
     video: VIDEO,
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 11,
@@ -404,6 +445,7 @@ export const Tasks = [
   {
     title: "JAVASCRIPT",
     category: "JAVASCRIPT",
+    image: [TASK1],
     video: VIDEO,
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 12,
@@ -411,6 +453,7 @@ export const Tasks = [
   {
     title: "JAVASCRIPT",
     category: "JAVASCRIPT",
+    image: [TASK1],
     video: VIDEO,
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 13,
@@ -418,6 +461,7 @@ export const Tasks = [
   {
     title: "JAVASCRIPT",
     category: "JAVASCRIPT",
+    image: [TASK1],
     video: VIDEO,
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 14,
@@ -425,6 +469,7 @@ export const Tasks = [
   {
     title: "JAVASCRIPT",
     category: "JAVASCRIPT",
+    image: [TASK1],
     video: VIDEO,
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 15,
@@ -433,6 +478,7 @@ export const Tasks = [
   {
     title: "JQUERY",
     category: "JQUERY",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 1,
@@ -440,6 +486,7 @@ export const Tasks = [
   {
     title: "JQUERY",
     category: "JQUERY",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 2,
@@ -447,6 +494,7 @@ export const Tasks = [
   {
     title: "JQUERY",
     category: "JQUERY",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 3,
@@ -454,6 +502,7 @@ export const Tasks = [
   {
     title: "JQUERY",
     category: "JQUERY",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 4,
@@ -461,6 +510,7 @@ export const Tasks = [
   {
     title: "JQUERY",
     category: "JQUERY",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 5,
@@ -468,6 +518,7 @@ export const Tasks = [
   {
     title: "JQUERY",
     category: "JQUERY",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 6,
@@ -475,6 +526,7 @@ export const Tasks = [
   {
     title: "JQUERY",
     category: "JQUERY",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 7,
@@ -482,6 +534,7 @@ export const Tasks = [
   {
     title: "JQUERY",
     category: "JQUERY",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 8,
@@ -489,6 +542,7 @@ export const Tasks = [
   {
     title: "JQUERY",
     category: "JQUERY",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 9,
@@ -496,6 +550,7 @@ export const Tasks = [
   {
     title: "JQUERY",
     category: "JQUERY",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 10,
@@ -503,6 +558,7 @@ export const Tasks = [
   {
     title: "JQUERY",
     category: "JQUERY",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 11,
@@ -510,6 +566,7 @@ export const Tasks = [
   {
     title: "JQUERY",
     category: "JQUERY",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 12,
@@ -517,6 +574,7 @@ export const Tasks = [
   {
     title: "JQUERY",
     category: "JQUERY",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 13,
@@ -524,6 +582,7 @@ export const Tasks = [
   {
     title: "JQUERY",
     category: "JQUERY",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 14,
@@ -531,6 +590,7 @@ export const Tasks = [
   {
     title: "JQUERY",
     category: "JQUERY",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 15,
@@ -539,6 +599,7 @@ export const Tasks = [
   {
     title: "REACT",
     category: "REACT",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 1,
@@ -546,6 +607,7 @@ export const Tasks = [
   {
     title: "REACT",
     category: "REACT",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 2,
@@ -553,6 +615,7 @@ export const Tasks = [
   {
     title: "REACT",
     category: "REACT",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 3,
@@ -560,6 +623,7 @@ export const Tasks = [
   {
     title: "REACT",
     category: "REACT",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 4,
@@ -567,6 +631,7 @@ export const Tasks = [
   {
     title: "REACT",
     category: "REACT",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 5,
@@ -574,6 +639,7 @@ export const Tasks = [
   {
     title: "REACT",
     category: "REACT",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 6,
@@ -581,6 +647,7 @@ export const Tasks = [
   {
     title: "REACT",
     category: "REACT",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 7,
@@ -588,6 +655,7 @@ export const Tasks = [
   {
     title: "REACT",
     category: "REACT",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 8,
@@ -595,6 +663,7 @@ export const Tasks = [
   {
     title: "REACT",
     category: "REACT",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 9,
@@ -602,6 +671,7 @@ export const Tasks = [
   {
     title: "REACT",
     category: "REACT",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 10,
@@ -609,6 +679,7 @@ export const Tasks = [
   {
     title: "REACT",
     category: "REACT",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 11,
@@ -616,6 +687,7 @@ export const Tasks = [
   {
     title: "REACT",
     category: "REACT",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 12,
@@ -623,6 +695,7 @@ export const Tasks = [
   {
     title: "REACT",
     category: "REACT",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 13,
@@ -630,6 +703,7 @@ export const Tasks = [
   {
     title: "REACT",
     category: "REACT",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 14,
@@ -637,6 +711,7 @@ export const Tasks = [
   {
     title: "REACT",
     category: "REACT",
+    image: [TASK1],
     video: "",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.",
     id: 15,

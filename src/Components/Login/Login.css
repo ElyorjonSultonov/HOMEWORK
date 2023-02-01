@@ -1,0 +1,109 @@
+.login {
+  /* margin: 50px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #e3e3e3;
+  border-radius: 16px;
+  padding: 48px;
+  width: 500px;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+.login form .emailFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login form .system {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login form .system span {
+  font-size: 14px;
+}
+.login form .system h4 {
+  font-size: 14px;
+  color: #04aa6d;
+  cursor: pointer;
+}
+
+.login form input {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  padding: 14px;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.login form input::placeholder {
+  font-weight: 400;
+}
+.login form input:focus {
+  outline: 4px solid #04aa6d8c;
+  border: 1px solid green;
+}
+
+.login form .hideshow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login form .hideshow span {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.login form .hideshow span .showIcon {
+  margin-right: 5px;
+}
+
+.login form h1 {
+  color: #04aa6d !important;
+  font-size: 29px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.login form .mb-30 {
+  margin-bottom: 30px;
+}
+
+.login form h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #282a35b7;
+}
+.login form .formBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.login form .formBtn button {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #04aa6d;
+  color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 14px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login form .formBtn button:focus {
+  box-shadow: 0 0 4px 4px #04aa6d;
+  background: transparent;
+  color: #282a35b7;
+}

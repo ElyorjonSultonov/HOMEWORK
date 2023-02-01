@@ -14,7 +14,7 @@ function Aside() {
 
   // console.log(TasksFilter, "taskfilter");
   // console.log(Tasks, "allTasks");
-  // const [text, setText] = useState(); 
+  // const [text, setText] = useState();
   const handleText = (e) => {
     // console.log(e.target.innerText);
     setLesson(e.target.innerText);
@@ -34,7 +34,7 @@ function Aside() {
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>{item.category}</Typography>
+            <Typography><p>{item.category}</p></Typography>
           </AccordionDetails>
         </Accordion>
       ))}

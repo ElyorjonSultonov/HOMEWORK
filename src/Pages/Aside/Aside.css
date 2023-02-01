@@ -10,7 +10,7 @@
 }
 .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root:hover {
   filter: blur(0.6px) !important;
-  background: #87cefa !important;
+  background: rgba(128, 128, 128, 0.24) !important;
 }
 .css-ahj2mt-MuiTypography-root {
   color: #000 !important;
@@ -22,14 +22,17 @@
   color: #fff !important;
   letter-spacing: 5px !important;
 }
+
 .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
   background: #e6e6fa !important;
 }
-
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 8px 16px !important;
+}
 aside {
   position: fixed;
   top: 76px;
-  width: 350px;
+  width: 270px;
   height: 665px !important;
   overflow-y: scroll;
   /* display: -webkit-box;
@@ -55,9 +58,9 @@ aside h3 span {
   color: #757782;
 }
 aside p {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 22px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.01em;
   color: #757782;
 }

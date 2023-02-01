@@ -82,7 +82,7 @@ function Navbar() {
 
           {/* ----------------- */}
           <div className="btn">
-            <button>login</button>
+            <button className="logBtn">Login</button>
           </div>
         </div>
       </div>

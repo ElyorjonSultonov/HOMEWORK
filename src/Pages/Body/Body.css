@@ -1,9 +1,8 @@
-
 .body {
   padding: 10px 0;
-  margin-left: 350px;
+  margin-left: 270px;
   z-index: 000;
-  background: #e6e6fa !important;
+  background: #fff;
 }
 .body h1 {
   text-align: center;
@@ -20,7 +19,16 @@
   margin: 10px 0 20px;
   color: #000000;
 }
-.body img {
+.body img,
+video {
   max-width: 100%;
   width: 100%;
+}
+
+.body .playBtn,
+.pauseBtn {
+  font-size: 50px;
+  cursor: pointer;
+}
+.body .playBtn {
 }
